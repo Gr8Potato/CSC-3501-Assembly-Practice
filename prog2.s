@@ -45,9 +45,9 @@ prog2:
 	movl  $0, %ebx           # loop counter for 6 elements
 	loop_start:				 # loop label
 	addl (%edx,%ebx,4), %edi # add element to edi
-    incl  %ebx               # increase loop counter
-    cmpl  $6, %ebx           # compare %ebx with 6
-    jne   loop_start         # if %ebx is not 6, repeat the loop (goto loop_start)
+        incl  %ebx               # increase loop counter
+    	cmpl  $6, %ebx           # compare %ebx with 6
+    	jne   loop_start         # if %ebx is not 6, repeat the loop (goto loop_start)
 	movl  %edi, (%ecx)		 # assigns accumulated value to value of l
 
 	# restoring caller stack frame
