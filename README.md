@@ -13,6 +13,6 @@ The assembly procedure performs the following operations including but not limit
 ### Compilation-Execution
 This program was designed to be run on specific 32-bit architecture. As such, dependencies & the nature of the program may result in failing to create a proper executable. With that said, there are 2 ways to create a program executable.
 
-Make: `make` (the executable will be `xtest`.
+Make: `make` (the executable will be `xtest`).
 
 Manual: `gcc -m32 main.c prog2.s -o <executable name`.
