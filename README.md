@@ -1,5 +1,5 @@
 # CSC-3501-Assembly-Practice
-I made **the assembly portion of this program** to demonstrate a foundational understanding of registers, assembly instructions, and memory allocation.
+I made **the assembly portion of this program** to demonstrate a foundational understanding of registers, assembly instructions, and memory allocation. The assembly is written in IA32 AT&T format.
 
 Student-faculty provided the C code and Make file.
 
